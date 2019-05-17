@@ -1,5 +1,7 @@
-import React from "react";
+import React from 'react';
 
-export default function Todo(props) {
-  return <p>{props.task}</p>;
-}
+function Todo (props){
+ return <p>{props.task}</p>
+};
+
+export default Todo;
